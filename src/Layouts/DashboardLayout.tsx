@@ -6,7 +6,7 @@ export default function DashboardLayout() {
   const navigate = useNavigate(); // 🔥 untuk redirect
 
   const handleLogout = () => {
-    logout(); // 🔥 hapus auth
+    logout(); //  hapus auth
     navigate("/login", { replace: true }); // 🔥 pindah ke login
   };
 
