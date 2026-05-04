@@ -14,12 +14,12 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 
 // DASHBOARD PAGES
-import Dashboard from "./pages/dahsboard/Dashboard";
-import CategoryIndex from "./pages/dahsboard/kategori/CategoryIndex";
-import CategoryCreate from "./pages/dahsboard/kategori/CategoryCreate";
-import PembicaraIndex from "./pages/dahsboard/pembicara/PembicaraIndex";
-import EventIndex from "./pages/dahsboard/event/eventindex";
-import EventCreate from "./pages/dahsboard/event/EventCreate";
+import Dashboard from "./pages/dashboard/Dashboard";
+import CategoryIndex from "./pages/dashboard/kategori/CategoryCreate";
+import CategoryCreate from "./pages/dashboard/kategori/CategoryCreate";
+import PembicaraIndex from "./pages/dashboard/pembicara/PembicaraIndex";
+import EventIndex from "./pages/dashboard/event/EventIndex";
+import EventCreate from "./pages/dashboard/event/EventCreate";
 
 // ROUTE PROTECT
 import ProtectedRoute from "./route/ProtectedRoute";
